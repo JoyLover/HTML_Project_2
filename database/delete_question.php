@@ -18,5 +18,5 @@ $sql2 = "DELETE FROM QUESTIONS
 $db->query($sql1);
 $db->query($sql2);
 
-header("Location: ../index.php?sid=".rand());
+
 ?>
